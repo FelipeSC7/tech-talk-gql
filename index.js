@@ -9,7 +9,6 @@
 //   .get('/', (req, res) => res.render('pages/index'))
 //   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
-
 const { ApolloServer, gql } = require('apollo-server')
 const { importSchema } = require('graphql-import')
 const resolvers = require('./resolvers')
