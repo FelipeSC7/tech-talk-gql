@@ -1,0 +1,4 @@
+type Autor {
+    id: ID
+    nome: String!
+}

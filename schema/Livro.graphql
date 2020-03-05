@@ -1,0 +1,6 @@
+type Livro {
+    id: ID
+    titulo: String!
+    paginas: Int
+    autor: Int!
+}

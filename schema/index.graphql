@@ -1,0 +1,6 @@
+# import Query from 'Query.graphql'
+# import Livro from 'Livro.graphql'
+# import Autor from 'Autor.graphql'
+# import Mutation from 'Mutation.graphql'
+
+scalar Date

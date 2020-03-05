@@ -1,0 +1,29 @@
+type Mutation {
+    novoLivro(
+        titulo: String,
+        paginas: Int,
+        autor: Int
+    ): Livro
+
+    novoAutor(
+        nome: String
+    ): Autor
+
+    excluirLivro(id: ID): Livro
+
+    alterarLivro(
+        id: ID
+        titulo: String
+        paginas: Int
+        autor: Int!
+    ): Livro
+
+    excluirAutor(id: ID): Autor
+
+    alterarAutor(
+        id: ID
+        titulo: String
+        paginas: Int
+        autor: Int!
+    ): Autor
+}

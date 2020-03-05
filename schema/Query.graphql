@@ -1,0 +1,8 @@
+type Query {
+    ola: String!
+    horaAtual: Date!
+    livros: [Livro] # Isto é apenas um comentário
+    livro(id: ID): Livro
+    autores: [Autor]
+    autor(id: ID): Autor
+}
