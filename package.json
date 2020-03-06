@@ -1,7 +1,7 @@
 {
   "name": "tech-talk-gql",
-  "version": "0.3.0",
-  "description": "Teck Talk",
+  "version": "0.1.0",
+  "description": "Teck Talk GraphQL",
   "engines": {
     "node": "12.x"
   },
@@ -10,21 +10,16 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "ejs": "^2.5.6",
-    "express": "^4.15.2",
     "apollo-server": "^2.4.8",
     "graphql": "^14.2.1",
     "graphql-import": "^0.7.1"
   },
   "devDependencies": {
     "nodemon": "^1.18.10",
-    "request": "^2.81.0",
-    "tape": "^4.7.0"
   },
   "keywords": [
     "node",
     "heroku",
-    "express",
     "apollo"
   ],
   "license": "MIT"

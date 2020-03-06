@@ -1,8 +1,0 @@
-{
-  "name": "Teck Talk: GraphQL",
-  "description": "Teck Talk",
-  "repository": "https://git.heroku.com/tech-talk-gql.git",
-  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
-  "keywords": ["node", "graphql", "heroku"],
-  "image": "heroku/nodejs"
-}
