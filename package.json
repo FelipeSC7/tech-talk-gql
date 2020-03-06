@@ -15,7 +15,7 @@
     "graphql-import": "^0.7.1"
   },
   "devDependencies": {
-    "nodemon": "^1.18.10",
+    "nodemon": "^1.18.10"
   },
   "keywords": [
     "node",
